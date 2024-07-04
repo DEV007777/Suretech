@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SureTech</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="script.js"> </script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <section>
+        <div class="slider-hero">
+            <div class="cont">
+                <div class="slick-carousel">
+                    <div> <img src="images/Rectangle 2167.png" style="width: 100%;
+                    height: 750px;">
+                    </div>
+                    <div> <img src="images/rectangle 2.jpg" style="width: 100%;
+                        height: 750px;">
+                    </div>
+                    <div> <img src="images/rectangle 3.jpg" style="width: 100%;
+                            height: 750px;">
+                    </div>
+
+                </div>
+                <div class="logo">
+                    <img src="images/logo.png" style="height: 40px;width: auto;">
+                </div>
+                <div class="topnav">
+                    <a href="#Products">Products</a>
+                    <a href="#About us">About us </a>
+                    <a href="#Services">Services</a>
+                    <a href="#Media">Media</a>
+                </div>
+                <p class="details">Elevating Excellence <br>
+                    Together
+                </p>
+                <p class="d2">
+                    Industry-leading Provider of Quality <br>
+                    Products Expert Services and Uninterrupted <br>
+                    support
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section style="padding: 6% 8%;">
+        <div class="info">
+            <span class="team">.</span>
+            <span class="team2">Meet Our Team</span>
+        </div>
+        <div class="buttons">
+            <button id="button1" onclick="toggleContent('content1', 'button1')" class="active">Directors</button>
+            <button id="button2" onclick="toggleContent('content2', 'button2')">Operation</button>
+            <button id="button3" onclick="toggleContent('content3', 'button3')">Sales</button>
+            <button id="button4" onclick="toggleContent('content4', 'button4')">Marketing</button>
+            <button id="button5" onclick="toggleContent('content5', 'button5')">Services</button>
+            <button id="button6" onclick="toggleContent('content6', 'button6')">Rentals</button>
+        </div>
+        <div id="branches">
+            <div id="content1" class="content active">
+                <span class="b1">Directors (2)</span>
+                <div class="people" style="display: flex;align-items: center;justify-content: space-around;">
+                    <div class="b2">
+                        <img src="images/pn1.png" alt="p1" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Mr. Sunil Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Chairman & Managing Director</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                    <div class="b2">
+                        <img src="images/pn2.png" alt="p2" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Ms. Pallu Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Director, Operations</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="content2" class="content ">
+                <span class="b1">Operation (2)</span>
+                <div class="people" style="display: flex; align-items: center;justify-content: space-around;">
+                    <div class="b2">
+                        <img src="images/general1.jpg" alt="p1" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Mr. Sunil Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Operation Director</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                    <div class="b2">
+                        <img src="images/general2.jpg" alt="p2" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Ms. Pallu Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;"> Operations</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="content3" class="content ">
+                <span class="b1">Sales (2)</span>
+                <div class="people" style="display: flex; align-items: center;justify-content: space-around;">
+                    <div class="b2">
+                        <img src="images/general1.jpg" alt="p1" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Mr. Sunil Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Sales Director</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                    <div class="b2">
+                        <img src="images/general2.jpg" alt="p2" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Ms. Pallu Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Sales Operations</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="content4" class="content">
+                <span class="b1">Marketing (2)</span>
+                <div class="people" style="display: flex; align-items: center;justify-content: space-around;">
+                    <div class="b2">
+                        <img src="images/pn1.png" alt="p1" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Mr. Sunil Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Marketing Director</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+
+                    </div>
+                    <div class="b2">
+                        <img src="images/pn2.png" alt="p2" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Ms. Pallu Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Marketing Operations</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="content5" class="content">
+                <span class="b1">Services (2)</span>
+                <div class="people" style="display: flex; align-items: center;justify-content: space-around;">
+                    <div class="b2">
+                        <img src="images/general1.jpg" alt="p1" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Mr. Sunil Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Services</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+
+                    </div>
+                    <div class="b2">
+                        <img src="images/general2.jpg" alt="p2" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Ms. Pallu Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Services Operations</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="content6" class="content">
+                <span class="b1">Rentals (2)</span>
+                <div class="people" style="display: flex; align-items: center;justify-content: space-around;">
+                    <div class="b2">
+                        <img src="images/general1.jpg" alt="p1" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Mr. Sunil Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Rentals</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+
+                    </div>
+                    <div class="b2">
+                        <img src="images/general2.jpg" alt="p2" style="height: 600px;width: 780px;border-radius: 20px;">
+                        <h3
+                            style="font-weight: 200px;padding-top: 15px;padding-left: 10px;letter-spacing: 1px;font-size: 25px;">
+                            Ms. Pallu Newatia</h3>
+                        <p style="padding: 5px;font-size: 23px;padding-left: 10px;">Rentals Operations</p>
+                        <span class="linked" style="position:absolute;left: 700px;top: 600px;"><a
+                                href="https://in.linkedin.com/" target="_blank"><img
+                                    src="images/LinkedinLogo.png"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 6% 8%;">
+
+        <span class="fdot">.</span>
+        <span class="fspan">FAQs</span>
+        <div class="faq" style="padding-top: 15px;">
+
+            <div class="faq-item active">
+
+                <button class="faq-question active">What is a backhoe loader?
+                    <span class="toggle-icon">-</span></button>
+                <div class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima </div>
+            </div>
+            <div class="faq-item">
+                <div class="line"></div>
+                <button class="faq-question">What is the difference between a backhoe and a loader?
+                    <span class="toggle-icon">+</span></button>
+                <div class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima </div>
+            </div>
+            <div class="faq-item ">
+                <div class="line"></div>
+                <button class="faq-question">How does LiveLink work on a Backhoe?
+                    <span class="toggle-icon">+</span></button>
+                <div class="faq-answer ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima </div>
+            </div>
+
+            <div class="faq-item ">
+                <div class="line"></div>
+                <button class="faq-question">How much weight can a backhoe loader lift?
+                    <span class="toggle-icon">+</span></button>
+                <div class="faq-answer ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima </div>
+                <div class="line"></div>
+            </div>
+
+    </section>
+
+
+    <section style="padding: 4% 8%;">
+
+        <div class="work">
+            <button id="wk1" onclick="toggleConten('comp1', 'wk1')" class="aactive">All</button>
+            <button id="wk2" onclick="toggleConten('comp2', 'wk2')">Blogs</button>
+            <button id="wk3" onclick="toggleConten('comp3', 'wk3')">Publications</button>
+            <button id="wk4" onclick="toggleConten('comp4', 'wk4')">News</button>
+            <button id="wk5" onclick="toggleConten('comp5', 'wk5')">Case Study</button>
+
+        </div>
+
+        <div id="compact">
+            <div id="comp1" class="comp aactive">
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px;">
+                    <div class="descript" style="position:absolute;top:308%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 730px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 1270px;"> Mighty Machines: Lack Of
+                        <br> Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px;">
+                    <div class="descript" style="position:absolute;top:348%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:348%;left: 730px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:348%;left: 1270px;"> Mighty Machines: Lack Of
+                        <br> Machines In Agriculture Sector</div>
+                </div>
+            </div>
+
+            <div id="comp2" class="comp ">
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 730px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 1270px;"> Mighty Machines: Lack Of
+                        <br> Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px;">
+                    <div class="descript" style="position:absolute;top:348%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:348%;left: 730px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+            </div>
+
+            <div id="comp3" class="comp">
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 730px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 1270px;"> Mighty Machines: Lack Of
+                        <br> Machines In Agriculture Sector</div>
+                </div>
+            </div>
+
+            <div id="comp4" class="comp ">
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 730px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 1270px;"> Mighty Machines: Lack Of
+                        <br> Machines In Agriculture Sector</div>
+                </div>
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px;">
+                    <div class="descript" style="position:absolute;top:348%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+            </div>
+
+            <div id="comp5" class="comp ">
+                <div class="column">
+                    <img src="images/Crane.png" style="width:100% ; box-sizing: border-box;border-radius:40px">
+                    <div class="descript" style="position:absolute;top:308%;left: 190px;"> Mighty Machines: Lack Of <br>
+                        Machines In Agriculture Sector</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer style="padding-top: 1200px;padding-left:8%;margin-bottom: 90px;">
+
+        <div class="find">
+            <div class="mail">
+                <ul style=" list-style-type: none;">
+                    <li> <a href="https://myaccount.google.com/" target="_blank"
+                            style="text-decoration: none;color: black;">
+                            <Span class="a"><i class='bx bx-envelope'></i></Span>
+                            info@suretech.com</a></li>
+                    <li><Span class="b"><i class='bx bx-phone'></i></Span>+ 12 3456 7890</li>
+                    <li><a href="https://www.google.com/maps" target="_blank"
+                            style="text-decoration: none;color: black;">
+                            <Span class="c"><i class='bx bx-location-plus'></i></Span>Find Dealer</a></li>
+                </ul>
+            </div>
+            <div class="pro" style="line-height: 1.5em;">
+                <h2>Products </h2>
+                <ul style="list-style-type: none;color: gray;">
+                    <li><a href="https://www.google.com/" target="_blank" style="text-decoration: none;color:gray">Earth
+                            Moving Equipment</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Foundation Equipment</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Attachment</a></li>
+                </ul>
+            </div>
+
+            <div class="serv" style="position: relative;left: 300px;font-size: 24px;line-height: 1.5em;">
+                <h2>Services </h2>
+                <ul style="position: relative;color: rgb(192, 4, 4);list-style-type: none;color: gray;">
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Services</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Rentals</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Refurbishment</a></li>
+                </ul>
+            </div>
+
+            <div class="copyright"><i class='bx bx-copyright' style='color:black'></i>SureTech Infrastructure Pvt. Ltd.
+                - All rights reserved</div>
+        </div>
+
+
+        <div class="form">
+            <div class="form1">
+                <div style="font-size: 30px;font-weight:bold;align-items: center;position: relative;top:30px;left:80px">
+                    Reach Out for Requirements
+                </div>
+                <form>
+                    <label for="username"
+                        style="font-size:24px;font-weight: bold;position: relative;top:50px;left:40px">Full Name<sup
+                            style="color: red;font-weight: 900px;"> *</sup></label>
+                    <input type="text" id="username" placeholder="Write your name" name="username" required
+                        style="font-size:22px; text-indent: 20px;">
+
+                    <label for="mailing"
+                        style="font-size:24px;font-weight: bold;position: absolute;top:438%;right:1065px">Email ID<sup
+                            style="color: red;font-weight: 900px;">*</sup></label>
+                    <input type="email" id="usermail" placeholder="Your email address" name="username" required
+                        style="font-size:18px; text-indent: 20px;">
+
+                    <label for="mobile"
+                        style="font-size:24px;font-weight: bold;position: absolute;top:438.5%;right:760px">Mobile
+                        Number</label>
+                    <input type="number" id="userphone" placeholder="Your mobile no." name="username"
+                        style="font-size:18px; text-indent: 20px;">
+
+                    <label for="requirement"
+                        style="font-size:24px;font-weight: bold;position: absolute;top:448%;right:980px">Your
+                        Requirement</label>
+                    <textarea rows="4" cols="50" id="req" placeholder="Write your query" name="username"
+                        style="font-size:18px; text-indent: 20px;"></textarea>
+
+                    <input id="submit" type="submit" value="Get Quotation"
+                        style="font-size:24px;font-weight: bold;position: relative;top:200px;left:40px">
+                    <img id="subimg" src="images/Arrow 2.png">
+                </form>
+            </div>
+        </div>
+
+        <div class="policies">
+            <div class="pol" style="position: relative;left: 60px;font-size: 20px;line-height: 2em;top:50px">
+                <h2>Policies </h2>
+                <ul style="position: relative;color: rgb(192, 4, 4);list-style-type: none;color: gray;">
+                    <li><a href="https://www.google.com/" target="_blank" style="text-decoration: none;color:gray">Terms
+                            & Conditions</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Privacy Policy</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Shipping Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="other" style="position: relative;left: 280px;font-size: 20px;line-height: 2em;bottom:112px;">
+                <h2>Other Links </h2>
+                <ul style="position: relative;color: rgb(192, 4, 4);list-style-type: none;color: gray;">
+                    <li><a href="https://www.google.com/" target="_blank" style="text-decoration: none;color:gray">Home
+                        </a></li>
+                    <li><a href="https://www.google.com/" target="_blank" style="text-decoration: none;color:gray">About
+                            Us</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Contact Us</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Media</a></li>
+                    <li><a href="https://www.google.com/" target="_blank"
+                            style="text-decoration: none;color:gray">Career</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social">
+
+            <div class="yt"><a href="www.youtube.com" target="_blank"><img src="images/youtube.png"></a></div>
+            <div class="fb"><a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png"></a></div>
+            <div class="mk"><a href="https://www.google.com/" target="_blank"><img src="images/Mask group.png"></a>
+            </div>
+            <div class="lk"><a href="https://in.linkedin.com/" target="_blank"><img src="images/LinkedinLogo.png"></a>
+            </div>
+
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
